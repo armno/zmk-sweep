@@ -30,10 +30,10 @@
 
         code {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR    &kp PERCENT         &kp CARET       &kp AMPERSAND  &kt ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans           &kp TAB      &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans              &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT             &kp SQT
-&kp LEFT_SHIFT   &trans       &kp K_PREV         &kp K_NEXT    &kp K_PLAY_PAUSE    &trans          &trans         &trans        &trans                &kp GRAVE
-                                                 &trans        &kp LCTRL           &kp BACKSPACE   &kp ESC
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH           &kp DOLLAR    &kp PERCENT         &kp CARET             &kp AMPERSAND          &kt ASTERISK  &kp LEFT_PARENTHESIS  &kp BACKSPACE
+&trans           &kp TAB      &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans              &kp LEFT_ARROW        &kp DOWN               &kp UP_ARROW  &kp RIGHT             &kp SQT
+&kp LEFT_SHIFT   &trans       &kp K_PREV         &kp K_NEXT    &kp K_PLAY_PAUSE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans                &kp GRAVE
+                                                 &trans        &kp LCTRL           &kp LG(LEFT_ALT)      &kp ESC
             >;
         };
 
@@ -48,10 +48,10 @@
 
         thai {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7     &kp N8    &kp N9    &kp N0
-&trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH
-&trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans    &trans
-                        &trans  &trans    &trans     &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6                &kp N7                 &kp N8    &kp N9    &kp N0
+&trans  &trans  &trans  &trans  &trans    &kp MINUS             &kp EQUAL              &kp LBKT  &kp RBKT  &kp BSLH
+&trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans    &trans
+                        &trans  &trans    &trans                &trans
             >;
         };
     };
